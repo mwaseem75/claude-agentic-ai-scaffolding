@@ -13,6 +13,36 @@ If you've used ChatGPT-style chat completions and you're wondering what
 "agentic" actually buys you beyond a longer system prompt, this repo answers
 that question with code instead of slides.
 
+## Agentic AI in one paragraph, and what these two repos actually cover
+
+"Agentic" gets thrown around a lot, so here's the plain version. A normal LLM
+call takes text in, gives text out, and stops there. An agent keeps going — it
+decides which tool to call, looks at what came back, decides what to do next,
+and repeats that loop by itself until the task is done or it needs your
+sign-off to continue. That loop, plus everything wrapped around it — which
+tools it's allowed to touch, who approves what, whether it remembers earlier
+turns, what stops it from doing something destructive — is what "agentic AI
+framework" means once you strip away the marketing. Everything else is
+implementation detail.
+
+This repo and its sibling, **[langchain-agentic-ai-scaffolding](https://github.com/mwaseem75/langchain-agentic-ai-scaffolding)**,
+teach that scaffolding through the same nine ideas — once on the Claude Agent
+SDK, once on LangChain — so you can tell which parts are universal and which
+are just one framework's opinion:
+
+1. **The agent loop itself** — what actually streams back when an agent runs, beyond a single response
+2. **Permissions and approval gates** — who decides whether a risky action actually executes
+3. **Identity and model choice** — giving the agent a persona, and what changes when you swap models
+4. **Custom tools** — teaching the agent to do something it couldn't do on its own
+5. **Statefulness** — the difference between an agent that remembers your last message and one that doesn't
+6. **Guardrails that can't be switched off** — a safety rule that survives even a permissive configuration
+7. **Delegating to a specialist** — one agent handing a subtask to another
+8. **Talking to something external** — connecting a tool that runs in a completely separate process
+9. **A capstone** — combining all of the above into one small agent that's actually safe to run unattended
+
+Work through both repos back to back and you end up with a tested mental model
+of agentic AI, not just familiarity with one framework's API surface.
+
 ## What the Claude Agent SDK actually is
 
 A lot of people assume it's just another wrapper around the Claude API. It
