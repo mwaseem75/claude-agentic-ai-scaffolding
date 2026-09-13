@@ -1,6 +1,7 @@
 # Lesson 7 — Subagents: `AgentDefinition` + the `Agent` Tool
 
 **File:** `lessons/07_subagents.py`
+**Run it:** `uv run lessons/07_subagents.py`
 **Concept:** Delegating a narrow subtask to a separately-configured specialist agent
 **Model:** main session `claude-haiku-4-5`; subagent `claude-haiku-4-5`
 **Verified cost:** $0.0192 (final version)

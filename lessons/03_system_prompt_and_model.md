@@ -1,6 +1,7 @@
 # Lesson 3 — `system_prompt`, `model`, and `effort`
 
 **File:** `lessons/03_system_prompt_and_model.py`
+**Run it:** `uv run lessons/03_system_prompt_and_model.py`
 **Concept:** The three shapes of `system_prompt`, and controlling thinking depth
 via `effort`
 **Model:** `claude-haiku-4-5` (demos 1–3), `claude-sonnet-5` (demos 4–5)

@@ -1,6 +1,7 @@
 # Lesson 8 — External MCP Servers (stdio) vs. In-Process Tools
 
 **File:** `lessons/08_mcp_external_server.py` + `lessons/_mcp_word_count_server.py`
+**Run it:** `uv run lessons/08_mcp_external_server.py`
 **Concept:** Wiring a genuinely separate OS process as a tool provider, contrasted
 with Lesson 4's in-process server
 **Model:** `claude-haiku-4-5`

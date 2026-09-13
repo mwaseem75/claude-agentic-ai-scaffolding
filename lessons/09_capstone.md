@@ -1,6 +1,7 @@
 # Lesson 9 — Capstone: "Repo Housekeeper"
 
 **File:** `lessons/09_capstone.py`
+**Run it:** `uv run lessons/09_capstone.py`
 **Concept:** Combining a custom tool, a guardrail hook, a permission callback, and
 a scoped persona into one small, safety-layered agent
 **Model:** `claude-haiku-4-5`

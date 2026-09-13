@@ -1,6 +1,7 @@
 # Lesson 2 — `allowed_tools`, `permission_mode`, and `can_use_tool`
 
 **File:** `lessons/02_tools_and_permissions.py`
+**Run it:** `uv run lessons/02_tools_and_permissions.py`
 **Concept:** How the SDK's permission system actually gates tool calls, and when
 your own gate (`can_use_tool`) gets silently skipped ("shadowed")
 **Model:** `claude-haiku-4-5`

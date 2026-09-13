@@ -1,6 +1,7 @@
 # Lesson 6 — Hooks: `PreToolUse` / `PostToolUse` Guardrails
 
 **File:** `lessons/06_hooks.py`
+**Run it:** `uv run lessons/06_hooks.py`
 **Concept:** A safety gate that operates independently of the permission system
 **Model:** `claude-haiku-4-5`
 **Verified cost:** $0.0135 (worked on the first run)

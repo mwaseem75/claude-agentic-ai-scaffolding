@@ -1,6 +1,7 @@
 # Lesson 1 — The `query()` Loop and Message Types
 
 **File:** `lessons/01_hello_query.py`
+**Run it:** `uv run lessons/01_hello_query.py`
 **Concept:** Isolating the message/content-block shapes streamed by `query()`
 **Model:** `claude-haiku-4-5`
 **Verified cost:** $0.0038 (single run)

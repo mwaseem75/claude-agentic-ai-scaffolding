@@ -1,6 +1,7 @@
 # Lesson 4 — Custom Tools: `@tool` + `create_sdk_mcp_server`
 
 **File:** `lessons/04_custom_tools.py`
+**Run it:** `uv run lessons/04_custom_tools.py`
 **Concept:** Giving Claude a brand-new capability that only exists in your own
 Python process, via an in-process MCP server
 **Model:** `claude-haiku-4-5`

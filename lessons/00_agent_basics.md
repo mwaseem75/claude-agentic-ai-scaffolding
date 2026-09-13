@@ -1,6 +1,7 @@
 # Lesson 0 — The Basic Agent Loop
 
 **File:** `agent.py` (repo root)
+**Run it:** `uv run agent.py`
 **Concept:** The `query()` agentic loop, `allowed_tools`, `permission_mode="acceptEdits"`
 **Model:** default (unset)
 **Cost:** not tracked (written before cost-tracking became a habit in later lessons)

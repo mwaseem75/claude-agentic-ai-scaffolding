@@ -1,6 +1,7 @@
 # Lesson 5 — `ClaudeSDKClient`: Stateful, Multi-Turn Conversations
 
 **File:** `lessons/05_stateful_client.py`
+**Run it:** `uv run lessons/05_stateful_client.py`
 **Concept:** Contrasting stateless `query()` against a persistent, multi-turn
 `ClaudeSDKClient` connection
 **Model:** `claude-haiku-4-5`
